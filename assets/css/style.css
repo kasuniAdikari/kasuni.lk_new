@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #cbd6e0;
   overflow: hidden;
   margin: 0; 
   height: 100%;
@@ -295,7 +295,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #789dd1;
 }
 
 .section-title h2::after {
@@ -313,6 +313,38 @@ section {
   margin-bottom: 0;
 }
 
+/* .panel{
+	width: 98%;
+	min-height: 100%;
+	position: absolute;
+	background-color: #000;
+	box-shadow: 4px -4px 4px rgba(0,0,0,0.2);
+	margin-left: -102%;
+	z-index:2;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+.panel:target{
+	margin-left: 0%;
+	background-color: #005CBF;
+} */
+/* #home:target ~ #header #navigation #link-home,
+#portfolio:target ~ #header #navigation #link-portfolio,
+#about:target ~ #header #navigation #link-about,
+#contact:target ~ #header #navigation #link-contact{
+	background: #000;
+	color: #fff;
+}
+#works {
+	padding: 15px 0px;
+}
+#works li{
+	display: inline;
+} */
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -324,19 +356,19 @@ section {
   overflow-y: auto;
 	overflow-x: hidden;
 	/* margin-top: -150%;
-	position: absolute;
-	background: #000;
-	box-shadow: 0px 4px 7px rgba(0,0,0,0.6); */
-	/* z-index: 2;
+	position: absolute; */
+	background: rgb(41, 47, 83);
+	box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
+	z-index: 2;
 	-webkit-transition: all .8s ease-in-out;
 	-moz-transition: all .8s ease-in-out;
 	-o-transition: all .8s ease-in-out;
-	transition: all .8s ease-in-out; */
+	transition: all .8s ease-in-out;
 }
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #4f85cf;
 }
 
 .about .content ul {
@@ -453,6 +485,8 @@ section {
   background-size: cover;
   overflow-y: auto;
 	overflow-x: hidden;
+  background: rgb(50, 54, 80);
+	box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
 	/* margin-top: -150%;
 	position: absolute;
 	background: #000;
@@ -468,13 +502,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #4f85cf;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #3f5779;
   position: relative;
 }
 
@@ -484,13 +518,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #5696bb;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #2a3544;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -732,7 +766,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+/* .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
@@ -820,7 +854,7 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -829,7 +863,7 @@ section {
 .contact {
   width: 100%;
   height: 100vh;
-  background-color: #7e8ea7;
+  background-color: #1a2c49;
   background-size: cover; 
   padding-bottom: 100px;
   overflow-y: auto;
