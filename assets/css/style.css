@@ -575,9 +575,27 @@ section {
    -o-transition: all .8s ease-in-out;
    transition: all .8s ease-in-out; */
 }
+.img-title{
+  text-align: center;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  
 } 
+
+.img-title{
+  background-color: #040b14;
+  
+}
+
+
+
+/* .portfolio-item{
+  padding: 1em 1.4em 1.4em;
+    border: 1px solid #444;
+    border-top: 0;
+    background-color: #040b14;
+} */
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -630,6 +648,11 @@ section {
   /* height: 300px;
   transform: rotate(360deg); */
 }
+.img-fluid{
+  width: auto;
+  height: 75%;
+}
+
 /*
 .portfolio .portfolio-wrap {
    transition: 0.3s;
@@ -712,6 +735,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+/* #services{
+  width: 100%;
+  height: 100vh;
+  background-color: #4f5e74;
+   background-size: cover; 
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -761,6 +793,16 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+} */
+
+.skills-block li {
+  display: inline-block;
+  background-color: #04b4e050;
+  border-radius: 3px;
+  color: #fff;
+  padding: 1px 10px;
+  margin: 3px 2px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
